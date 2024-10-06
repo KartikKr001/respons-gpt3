@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
+.brand-images{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.brand-images img{
+    min-width: 120px;
+    max-width: 150px;
+    margin: 0.5rem 2rem;
+}
